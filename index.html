@@ -98,7 +98,41 @@
       .two-col {
         grid-template-columns: 1fr 1fr;
       }
+	  .project-images img {
+			max-width: 100%;
+		}
     }
+	body{
+	background-color: #f8fafc;
+	}
+	.cta-button {
+	  display: inline-block;
+	  padding: 12px 24px;
+	  background: #111;
+	  color: #fff;
+	  text-decoration: none;
+	  font-weight: 600;
+	  border-radius: 6px;
+	}
+
+	.cta-button:hover {
+	  background: #000;
+	}
+	.center-align{
+		text-align:center;
+	}
+	.mt-10{
+		margin-top:10px;
+	}
+	.mt-25{
+		margin-top:25px;
+	}
+	.mw-100{
+		max-width:100%;
+	}
+	.project-images img {
+		max-width: 85%;
+	}
   </style>
 </head>
 <body>
@@ -144,21 +178,57 @@
   </section>
 
   <section>
-    <div class="container">
-      <h2>Work & Impact</h2>
-      <ul>
-        <li><strong>Expitrans VAR System (Payment Gateway)</strong> — Leading a Laravel & Angular platform integrating Equifax, Mastercard, OFAC, GIACT, TSYS, and FreePBX. Handles complex KYC, onboarding flows, and APIs for partners and customers. Ensuring reliability and scalability for daily operations.</li>
-		<li><strong>TradingSim</strong> — High-traffic WordPress site with custom subscription and affiliate flows. Integrated HubSpot, First Promoter, PayPal, and Authorize.net to manage thousands of active users.</li>
-		<li><strong>Mindbodyfood Institute</strong> — WordPress LMS integrated with SuiteCRM, streamlining course management, subscriptions, and student operations while maintaining smooth production performance.</li>
-      </ul>
-    </div>
+	  <div class="container">
+		<h2>Work & Impact</h2>
+
+		<div class="project">
+		  <p>
+			<strong>Expitrans VAR System (Payment Gateway)</strong> —
+			Leading a Laravel & Angular platform integrating Equifax, Mastercard, OFAC, GIACT, TSYS, and FreePBX.
+			Handles complex KYC, onboarding flows, and APIs for partners and customers.
+			Ensuring reliability and scalability for daily operations.
+		  </p>
+		</div>
+
+		<div class="project mt-25">
+		  <p>
+			<strong>TradingSim</strong> —
+			High-traffic WordPress site with custom subscription and affiliate flows.
+			Integrated HubSpot, First Promoter, PayPal, and Authorize.net to manage thousands of active users.
+		  </p>
+
+		  <div class="project-images">
+			<img class="mt-10" src="images/tradingsim-1.png" alt="TradingSim">
+		  </div>
+		</div>
+
+		<div class="project mt-25">
+		  <p>
+			<strong>Mindbodyfood Institute</strong> —
+			WordPress LMS integrated with SuiteCRM, streamlining course management,
+			subscriptions, and student operations while maintaining smooth production performance.
+		  </p>
+
+		  <div class="project-images">
+			<img class="mt-10" src="images/mindbodyfood-1.png" alt="Mindbodyfood LMS">
+		  </div>
+		</div>
+
+	  </div>
+	</section>
+
+  <section>
+	  <div class="container">
+	  <h2>Get Expert Guidance in 15 Minutes</h2>
+		<p class="mw-100">Get clear technical direction before you commit time or budget. In a short call, we'll review your goals, spot risks early, and define the right architecture or next steps no fluff, no pressure.</p>
+		<div class='center-align mt-10'><a href="https://calendly.com/tahir-abas12/15-minutes-consultation" target="_blank" rel="noopener noreferrer" class="cta-button">Book Free 15-Min Consultation</a></div>
   </section>
 
   <section>
     <div class="container">
       <h2>Contact</h2>
       <p>
-        <a href="https://www.linkedin.com/in/tahir-abbas-9123b619/">LinkedIn</a> · <a href="mailto:tahir.abas12@gmail.com">Email</a> · <a href="https://calendly.com/tahir-abas12/15-minutes-consultation">Book a meeting</a>
+        <a href="https://www.linkedin.com/in/tahir-abbas-9123b619/">LinkedIn</a> · <a href="mailto:tahir.abas12@gmail.com">Email</a>
       </p>
     </div>
   </section>
